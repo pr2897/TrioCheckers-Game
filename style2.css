@@ -1,0 +1,96 @@
+body{
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: cursive;
+}
+
+div *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.result{
+    height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#game{
+    max-height: 800px;
+    max-width: 800px;
+    width: 100%;
+    height: 100px;
+    position: relative;
+    margin: 20px auto;
+    
+}
+.title{
+    text-align: center;
+    color: #7C0CE8;
+    background-image: linear-gradient(to right,green,blue);
+    font-family: cursive;
+    text-decoration:underline #C900FF wavy;
+    
+}
+
+.cellprefix{
+    
+
+}
+
+#footer{
+    text-align:justify;
+    color: red;
+}
+
+#game-rule{
+    padding: 50px 200px;
+    margin-left: 130px;
+    font-family: cursive;
+    font-size: 20px;
+    color: darkorchid;
+}
+
+.gamecell{
+    
+    background-image: url('images/checker.jpg');
+    background-position: center;
+    width:80px;
+    height: 80px;
+    float: left;
+    margin: 9px 3px;
+    transition: all 0.5s ease-in-out;
+    border-radius: 50%;
+    padding: 0 0 0 6px;
+    font-size: 30pt;
+    cursor: pointer;
+    z-index: 1;
+}
+.gamecell:hover{
+    transform: translate(8px,-8px);
+    animation: solution 0.2s ease-in-out infinite alternate;
+}
+
+
+
+.nv{
+    opacity: 0%;
+    cursor: auto;
+}
+
+.red{
+    background: rgba(65,161,73) !important;
+}
+
+.v {
+    
+}
